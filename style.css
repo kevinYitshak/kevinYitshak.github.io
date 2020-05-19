@@ -1,9 +1,9 @@
 body {
-    background-color: #333333;
-    color: #FFFFFF;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    overflow-x: hidden;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	overflow-x: hidden;
 }
 
 h1,
@@ -12,91 +12,95 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 300;
-    font-size: 1.5rem;
+	font-weight: 300;
+	font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 p {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 img {
-  width: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content {
-  width: 750px;
-  margin: 0 auto;
+	width: 750px;
+	margin: 0 auto;
 }
 
 .center_img {
-  width: 5cm;
-  height: 5cm;
-  border-radius: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* border: 3px solid black; */
+	width: 5cm;
+	height: 5cm;
+	border-radius: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 3px solid black; */
 }
 
 .tm-timeline-description {
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 20px;
 }
 
 .tm-bg-dark {
-    background-color: #262626;
+	background-color: #262626;
 }
 
 .tm-text-green {
-    color: #99CC66;
+	color: #99CC66;
 }
 
 .tm-text-cyan {
-    color: #33cccc;
+	color: #33cccc;
 }
 
 .tm-font-400 {
-    font-weight: 400;
+	font-weight: 400;
 }
 
 .tm-timeline-item {
-    margin-left: 70px;
+	margin-left: 70px;
 }
 
 .tm-timeline-item-inner {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
+}
+
+.tm-publication {
+	color: #F9D432;
 }
 
 .wordspacing {
-    word-spacing: 5em;
-    margin-left: auto;
-    margin-right: auto;
+	word-spacing: 5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:link {
-  text-decoration: none;
-  color: #CC9966;
+	text-decoration: none;
+	color: #CC9966;
 }
 
 a:visited {
-  text-decoration: none;
-  color: #33cccc;
+	text-decoration: none;
+	color: #33cccc;
 }
 
 a:hover {
-  text-decoration: none;
-  color: rgb(195, 211, 125);
+	text-decoration: none;
+	color: rgb(195, 211, 125);
 }
+
 
 hr {
-    border-color: #666666;
+	border-color: #666666;
 }
-
