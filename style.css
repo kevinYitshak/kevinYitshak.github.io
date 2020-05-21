@@ -19,6 +19,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		/* display: block; */
+		/* width: 100%; */
+		text-align: left;
+	}
+}
+
 body {
 	background-color: #363333;
 	color: #ffffff;
