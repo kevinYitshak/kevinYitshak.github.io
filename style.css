@@ -120,7 +120,7 @@ img {
 
 .wordspacing {
 	width: 750px;
-	word-spacing: 5em;
+	word-spacing: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -136,7 +136,8 @@ a:hover {
 }
 
 hr {
-	border-color: #666666;
+	border-color: rgb(194, 243, 18);
+  	border-top: 1px rgb(194, 243, 18);
 }
 
 .timeline {
