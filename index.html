@@ -1,18 +1,17 @@
 <!DOCTYPE HTML>
 
 <html>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
 
-		<div class="navbar">
-			<a href="#home"> <img src="icons/icons8-home-page-100.png" title="Home" style="width:30px;height:30px"></a>
-			<a href="#publications"><img src="icons/icons8-bookmark-100.png" title="Publications" style="width:30px;height:30px"></a>
-			<a href="#experience"><img src="icons/icons8-technical-support-100.png" title="Experience" style="width:30px;height:30px"></a>
-			<a href="#education"><img src="icons/icons8-graduation-cap-100.png" title="Education" style="width:30px;height:30px"></a>
-		</div>
+		<!-- <div class="navbar"> -->
+		<!-- 	<a href="#home"> <img src="icons/icons8-home-page-100.png" title="Home" style="width:30px;height:30px"></a> -->
+		<!-- 	<a href="#publications"><img src="icons/icons8-bookmark-100.png" title="Publications" style="width:30px;height:30px"></a> -->
+		<!-- 	<a href="#experience"><img src="icons/icons8-technical-support-100.png" title="Experience" style="width:30px;height:30px"></a> -->
+		<!-- 	<a href="#education"><img src="icons/icons8-graduation-cap-100.png" title="Education" style="width:30px;height:30px"></a> -->
+		<!-- </div> -->
 
 	</head>
 
@@ -35,9 +34,9 @@
 
 				<p>
 				My work is mainly focused on Medical Image Analysis using image processing
-				and computer vision techniques. At Present, I am exploring
-				Neural Architecture Search (NAS) techniques for the analysis of
-				medical images.
+				and computer vision techniques. At Present, I am devloping a complete pipeline
+				for the analysis of Wireless Capsule Endoscopy (WCE) images in collaboration
+				with a startup, <a href="https://qpiai.tech/">QpiAI</a> and Indian Airforce Command hospital, Bangalore.
 				</p>
 			</div>
 
@@ -160,59 +159,64 @@
 			<hr>
 		</div>
 
-		<div class="content" id="experience">
-			<h2> Experience </h2>
+		<div>
 
-			<div>
-				<ul class="timeline">
-					<!-- Item 1 -->
-					<li>
-						<div class="direction-r">
-							<div class="flag-wrapper">
-								<span class="flag">Research Assistant, IISc</span>
-								<span class="time-wrapper"><span class="time">Aug'19 - present</span></span>
-							</div>
-							<div class="desc">Working on classifying nine different abnormalities captured from Wireless
-								Capsule Endoscopic procedure (WCE) using neural architecture search technique. This work
-								is in collaboration with Indian Air-Force Command Hospital, Bangalore. <br>
-								<span class="tm-text-cyan"> Tool used:</span> Python, Pytorch, OpenCV.
-							</div>
-						</div>
-					</li>
-
-					<!-- Item 2 -->
-					<li>
-						<div class="direction-l">
-							<div class="flag-wrapper">
-								<span class="flag">Research Intern, IISc</span>
-								<span class="time-wrapper"><span class="time">Jan'19 - June'19</span></span>
-							</div>
-							<div class="desc"> Proposed an Artery - Vein classification network from single-wavelength fundus
-								images using the low-level to high-level features extracted from Identity mapping network,
-								which acts as a backbone architecture. I also developed an ImageJ plugin and android
-								application based on the ‘ICIP 2019’ paper. <br>
-								<span class="tm-text-cyan"> Tool used: </span> Python, Keras, OpenCV, ImageJ, Java.
-							</div>
-						</div>
-					</li>
-
-					<!-- Item 3 -->
-					<li>
-						<div class="direction-r">
-							<div class="flag-wrapper">
-								<span class="flag">Research Intern, IISc</span>
-								<span class="time-wrapper"><span class="time">May'18 - July'18</span></span>
-							</div>
-							<div class="desc"> Proposed a novel methodology using a multi-scale Harris corner technique and
-								iterative Voronoi decomposition technique for optic cup segmentation using the structural
-								properties of blood vessels. The Ministry of Human Resource Development (MHRD) , India,
-								under the IMPRINT initiative, funded this project. <br>
-								<span class="tm-text-cyan"> Tool used: </span> MATLAB.
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
 		</div>
 	</body>
 </html>
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+
+
+		<!-- <div class="content" id="experience"> -->
+		<!-- 	<h2> Experience </h2> -->
+
+		<!-- 	<div> -->
+		<!-- 		<ul class="timeline"> -->
+		<!-- 			<!-1- Item 1 -1-> -->
+		<!-- 			<li> -->
+		<!-- 				<div class="direction-r"> -->
+		<!-- 					<div class="flag-wrapper"> -->
+		<!-- 						<span class="flag">Research Assistant, IISc</span> -->
+		<!-- 						<span class="time-wrapper"><span class="time">Aug'19 - present</span></span> -->
+		<!-- 					</div> -->
+		<!-- 					<div class="desc">Working on classifying nine different abnormalities captured from Wireless -->
+		<!-- 						Capsule Endoscopic procedure (WCE) using neural architecture search technique. This work -->
+		<!-- 						is in collaboration with Indian Air-Force Command Hospital, Bangalore. <br> -->
+		<!-- 						<span class="tm-text-cyan"> Tool used:</span> Python, Pytorch, OpenCV. -->
+		<!-- 					</div> -->
+		<!-- 				</div> -->
+		<!-- 			</li> -->
+
+		<!-- 			<!-1- Item 2 -1-> -->
+		<!-- 			<li> -->
+		<!-- 				<div class="direction-l"> -->
+		<!-- 					<div class="flag-wrapper"> -->
+		<!-- 						<span class="flag">Research Intern, IISc</span> -->
+		<!-- 						<span class="time-wrapper"><span class="time">Jan'19 - June'19</span></span> -->
+		<!-- 					</div> -->
+		<!-- 					<div class="desc"> Proposed an Artery - Vein classification network from single-wavelength fundus -->
+		<!-- 						images using the low-level to high-level features extracted from Identity mapping network, -->
+		<!-- 						which acts as a backbone architecture. I also developed an ImageJ plugin and android -->
+		<!-- 						application based on the ‘ICIP 2019’ paper. <br> -->
+		<!-- 						<span class="tm-text-cyan"> Tool used: </span> Python, Keras, OpenCV, ImageJ, Java. -->
+		<!-- 					</div> -->
+		<!-- 				</div> -->
+		<!-- 			</li> -->
+		<!-- 			<!-1- Item 3 -1-> -->
+		<!-- 			<li> -->
+		<!-- 				<div class="direction-r"> -->
+		<!-- 					<div class="flag-wrapper"> -->
+		<!-- 						<span class="flag">Research Intern, IISc</span> -->
+		<!-- 						<span class="time-wrapper"><span class="time">May'18 - July'18</span></span> -->
+		<!-- 					</div> -->
+		<!-- 					<div class="desc"> Proposed a novel methodology using a multi-scale Harris corner technique and -->
+		<!-- 						iterative Voronoi decomposition technique for optic cup segmentation using the structural -->
+		<!-- 						properties of blood vessels. The project was funded by the Ministry of Human Resource Development 								(MHRD) , India, under the IMPRINT initiative. <br> -->
+		<!-- 						<span class="tm-text-cyan"> Tool used: </span> MATLAB. -->
+		<!-- 					</div> -->
+		<!-- 				</div> -->
+		<!-- 			</li> -->
+		<!-- 		</ul> -->
+		<!-- 	</div> -->
+		<!-- </div> -->
