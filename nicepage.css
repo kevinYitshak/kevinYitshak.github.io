@@ -32422,7 +32422,7 @@ a.u-link.u-text-hover-grey-90:hover {
   letter-spacing: 0px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Fira Code";
+  font-family: "Open Sans", sans-serif;
 }
 
 .u-header .u-nav-2 {
@@ -32488,12 +32488,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 121px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
   margin: 49px auto;
+}
+
+.u-footer .u-icon-1 {
+  color: rgb(255, 255, 255) !important;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
